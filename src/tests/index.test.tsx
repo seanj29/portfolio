@@ -1,12 +1,15 @@
 import React from "react"
-import { render } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
 import IndexPage from "../pages/index"
 
 
-test("Displays the correct title", () => {
-  const { getByTestId } = render(<IndexPage/>);
+test("Checks that pages title is correct",  async() => {
 
-  const title = getByTestId("Home");
-  expect(title).toBeVisible(); 
-  throw new Error;
+ render(<IndexPage/>);
+  await screen.findByRole('heading')
+  
+
+  expect(screen.getByRole('heading')).toHaveTextContent('Home Page');
+ 
+
 });
