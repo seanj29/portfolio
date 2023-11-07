@@ -2,6 +2,7 @@ import type { Config } from 'jest';
 
 const config: Config = {
     testEnvironment: `jsdom`,
+    setupFilesAfterEnv: ["<rootDir>/setup-test-env.ts"],
     transform: {
     "^.+\\.[jt]sx?$": "<rootDir>/jest-preprocess.js",
     },
@@ -17,7 +18,7 @@ const config: Config = {
     testEnvironmentOptions: {
       url: `http://localhost`,
     },
-    setupFiles: [`<rootDir>/loadershim.js`, `<rootDir>/jest-setup.ts`],
+    setupFiles: [`<rootDir>/loadershim.js`],
     
   }
 
