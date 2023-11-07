@@ -4,9 +4,9 @@ import IndexPage from "../pages/index"
 
 
 test("Displays the correct title", () => {
-  const { getByText } = render(<IndexPage/>);
+  const { getByTestId } = render(<IndexPage/>);
 
-  const title = getByText("Home");
-
-  expect(title).toBe
-})
+  const title = getByTestId("Home");
+  expect(title).toBeVisible(); 
+  throw new Error;
+});
