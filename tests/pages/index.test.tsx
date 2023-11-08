@@ -1,6 +1,6 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
-import IndexPage from "../pages/index"
+import IndexPage from "../../src/pages/index"
 
 
 test("Checks that pages title is correct",  async() => {
