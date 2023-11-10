@@ -2,7 +2,7 @@ import React from "react"
 import type { ReactNode } from "react"
 
 
-interface siteMetadata{
+type siteMetadata = {
     title?: string
     description?: string
     siteUrl?: string
