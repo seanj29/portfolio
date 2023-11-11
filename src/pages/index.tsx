@@ -7,7 +7,7 @@ import Bio from "../components/bio";
 
 const bioText = ` I'm Sean Otto. I'm a software engineer based in the beautiful hills of Surrey, UK. I love developing both games, front end websites and small command line programs.
 
-I'm passionate about emergent-tech, beautiful interfaces and intuitive programming.
+I'm passionate about emergent-tech, beautiful interfaces and intuitive programming. I also love my gf sooooo much 
 
 To find out more about any of my projects, feel free to select any of the links on the right!`
 const IndexPage = () =>{
@@ -26,6 +26,6 @@ export default IndexPage
 export const Head: HeadFC = () => (
 <>
   <SEO />
-  <body className = "bg-teal-950 text-teal-400 font-ubuntu"></body>
+  <body className = "bg-slate-800 text-teal-400 font-ubuntu"></body>
   </>
 )
