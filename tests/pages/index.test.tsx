@@ -14,7 +14,7 @@ import IndexPage from "../../src/pages";
 
 // });
 
-test(" My Name is present and in the center", () => {
+test(" My Name is present", () => {
   render(<IndexPage/>)
   const headings = screen.getAllByRole("heading");
 });
