@@ -4,7 +4,7 @@ import Header from "./header"
 const Navbar = () =>{
 
     return (
-    <nav className="flex items-center justify-between flex-wrap p-6 bg-slate-900">
+    <nav className="flex items-center justify-between flex-wrap p-6 bg-slate-900 position lg:sticky lg:top-2">
         <div>
             <Header/>
         </div>
@@ -15,24 +15,24 @@ const Navbar = () =>{
                 </svg>
             </button>
         </div>
-        <div className="w-full block mt-4 flex lg:w-auto lg:justify-end lg:mt-0">
-            <ul className="flex-grow flex">
-                <li className="mr-4 lg:inline-block">
+        <div className="w-full justify-center block text-3xl lg:text-xl mt-4 flex lg:w-auto lg:justify-end">
+            <ul className="block divide-y-2 lg:divide-y-0 lg:divide-x-2">
+                <li className="lg:inline-block lg:ml-2">
                     <Link to="#" className="hover:text-white hover:underline">
                         About
                     </Link>
                 </li>
-                <li className="mr-4 lg:inline-block">
+                <li className="lg:inline-block lg:ml-2">
                     <Link to="#" className="hover:text-white hover:underline">
                         Experience
                     </Link>
                 </li>
-                <li className="mr-4 lg:inline-block">
+                <li className="lg:inline-block lg:ml-1">
                     <Link to="#" className="hover:text-white hover:underline">
                         Projects
                     </Link>
                 </li>
-                <li className="mr-4 lg:inline-block">
+                <li className="lg:inline-block lg:ml-1">
                     <Link to="#" className="hover:text-white hover:underline">
                         Contact
                     </Link>
