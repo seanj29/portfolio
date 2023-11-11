@@ -3,7 +3,7 @@ import React from "react"
 
 type HeaderProps = {
 
-    Title: string,
+    Title?: string,
 }
 
 const Header = (props: HeaderProps) =>{
@@ -13,7 +13,7 @@ const Header = (props: HeaderProps) =>{
     <div className="text-gray-200 font-ubuntu">
         <h1 className="text-4xl font-bold">
             <Link to="/">
-                {Title}
+                {Title ?? "Sean Otto"}
             </Link>
         </h1>
         <h2 className="mt-3 txt-lg font-medium">
