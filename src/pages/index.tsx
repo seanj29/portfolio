@@ -5,7 +5,9 @@ import Bio from "../components/bio";
 import Navbar from "../components/nav";
 
 
-const bioText = ` I'm Sean Otto. I'm a software engineer based in the beautiful hills of Surrey, UK. I love developing both games, front end websites and small command line programs.
+const bioText = ` I'm Sean Otto, a software engineer based in the beautiful hills of Surrey, UK. 
+
+I love developing games, front end websites and small command line programs.
 
 I'm passionate about emergent-tech, beautiful interfaces and intuitive programming. I also love my gf sooooo much 
 
@@ -16,7 +18,12 @@ const IndexPage = () =>{
     
     <div className="container mx-auto px-6 py-12">
     <Navbar/>
-    <Bio TextContent={bioText}/>
+    <div className="mt-20 mx-10 lg:mx-20">
+      <h1 className="text-gray-200 text-4xl font-ubuntu font-semibold">
+        Hi there!
+      </h1>
+      <Bio TextContent={bioText}/>
+    </div>
     </div>
   )
 }
