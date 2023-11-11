@@ -15,25 +15,25 @@ const Navbar = () =>{
                 </svg>
             </button>
         </div>
-        <div className="mt-4 flex w-full justify-center block text-3xl lg:text-xl  lg:w-auto lg:justify-end">
+        <div className="mt-4 flex w-full justify-center block text-3xl lg:text-xl lg:w-auto lg:justify-end">
             <ul className="block">
                 <li className="mt-4 mb-4 lg:inline-block lg:mr-2 lg:my-0">
-                    <Link to="#" className="hover:text-white hover:underline">
+                    <Link to="/about" id="about" className="hover:text-white hover:underline target:text-purple-600 hover:duration-500">
                         About
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="#" className="hover:text-white hover:underline">
+                    <Link to="/404" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
                         Experience
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="#" className="hover:text-white hover:underline">
+                    <Link to="#" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
                         Projects
                     </Link>
                 </li>
                 <li className="lg:inline-block lg:mr-2">
-                    <Link to="#" className="hover:text-white hover:underline">
+                    <Link to="#" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
                         Contact
                     </Link>
                 </li>

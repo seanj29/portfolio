@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
       'ubuntu': ['Ubuntu', 'sans-serif']
     },
+    aria: {
+      current: 'current="page"',
+    },
   },
 },
   plugins: [],

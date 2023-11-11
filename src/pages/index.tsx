@@ -1,8 +1,8 @@
 import React from "react"
 import type { HeadFC } from "gatsby"
-import { SEO } from "../components/seo"
 import Bio from "../components/bio";
 import Navbar from "../components/nav";
+import { SEO } from "../components/seo";
 
 
 const bioText = ` I'm Sean Otto, a software engineer based in the beautiful hills of Surrey, UK. 
@@ -31,8 +31,8 @@ const IndexPage = () =>{
 export default IndexPage
 
 export const Head: HeadFC = () => (
-<>
-  <SEO />
-  <body className = "bg-slate-800 text-slate-400 font-ubuntu"></body>
-  </>
+      <>
+      <SEO />
+      <body className = "bg-slate-800 text-slate-400 font-ubuntu"></body>
+      </>
 )
