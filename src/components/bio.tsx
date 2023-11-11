@@ -12,7 +12,7 @@ const Bio = (props: BioProps) =>{
 
     return (
     <div>
-        <main className="font-ubuntu text-slate-50 flex whitespace-pre-line my-2">
+        <main className="font-ubuntu text-slate-50/70 flex whitespace-pre-line my-2">
             <p>
                 {TextContent}
             </p>
