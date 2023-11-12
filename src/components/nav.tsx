@@ -18,22 +18,22 @@ const Navbar = () =>{
         <div className="mt-4 flex w-full justify-center block text-3xl lg:text-xl lg:w-auto lg:justify-end">
             <ul className="block">
                 <li className="mt-4 mb-4 lg:inline-block lg:mr-2 lg:my-0">
-                    <Link to="/about" id="about" className="hover:text-white hover:underline target:text-purple-600 hover:duration-500">
+                    <Link to="/about" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         About
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="/404" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
+                    <Link to="/404" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline cursor-not-allowed">
                         Experience
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="#" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
+                    <Link to="#" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline cursor-not-allowed">
                         Projects
                     </Link>
                 </li>
                 <li className="lg:inline-block lg:mr-2">
-                    <Link to="#" className="hover:text-white hover:underline aria-current:text-purple-600 hover:duration-500">
+                    <Link to="#" activeClassName="text-teal-600" className="hover:text-white hover:underline cursor-not-allowed">
                         Contact
                     </Link>
                 </li>
