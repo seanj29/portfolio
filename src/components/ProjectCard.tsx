@@ -10,3 +10,5 @@ const ProjectCard = () =>{
       </h1>
     )
   }
+
+export default ProjectCard
