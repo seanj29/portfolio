@@ -23,12 +23,12 @@ const Navbar = () =>{
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="/404" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline cursor-not-allowed">
+                    <Link to="/404" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         Experience
                     </Link>
                 </li>
                 <li className="mb-4 lg:inline-block lg:mr-2">
-                    <Link to="#" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline cursor-not-allowed">
+                    <Link to="/projects" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         Projects
                     </Link>
                 </li>

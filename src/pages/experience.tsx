@@ -1,12 +1,11 @@
 import React from "react";
 import type { HeadFC } from "gatsby"
 import { SEO } from "../components/seo";
-import Bio from "../components/bio";
 import Navbar from "../components/nav";
 
 
 
-const AboutPage = () => {
+const ExperiencePage = () => {
     return(    
         <div className="container mx-auto px-6 py-12">
         <Navbar/>
@@ -18,9 +17,9 @@ const AboutPage = () => {
 
 export const Head: HeadFC = () => (
     <>
-    <SEO title="About" />
+    <SEO title="Experience Page" />
     <body className = "bg-slate-800 text-slate-400 font-ubuntu"></body>
     </>
 )
 
-export default AboutPage
+export default ExperiencePage
