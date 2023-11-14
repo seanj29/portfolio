@@ -17,23 +17,23 @@ const Navbar = () =>{
             </button>
         </div>
         <div className="mt-4 flex w-full justify-center block text-3xl lg:text-xl lg:w-auto lg:justify-end">
-            <ul className="block">
-                <li className="mt-4 mb-4 lg:inline-block lg:mr-2 lg:my-0">
+            <ul className="block divide-y lg:divide-y-0">
+                <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
                     <Link to="/about" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         About
                     </Link>
                 </li>
-                <li className="mb-4 lg:inline-block lg:mr-2">
+                <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
                     <Link to="/experience" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         Experience
                     </Link>
                 </li>
-                <li className="mb-4 lg:inline-block lg:mr-2">
+                <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
                     <Link to="/projects" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
                         Projects
                     </Link>
                 </li>
-                <li className="lg:inline-block lg:mr-2">
+                <li className="pt-2 lg:pt-0 lg:inline-block lg:border-x lg:px-2">
                     <Link to="/404" activeClassName="text-teal-600" className="hover:text-white hover:underline cursor-not-allowed">
                         Contact
                     </Link>
