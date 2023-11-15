@@ -1,9 +1,14 @@
 import React from "react"
 
-const ProjectsSidebar = () =>{
+type SidebarProps = {
+    styles: string;
+}
+
+const ProjectsSidebar = ({styles}:SidebarProps) =>{
+
 
     return (
-    <nav className="mx-auto w-fit h-auto">
+    <nav className={styles}>
         <ul className="flex flex-col">
             <li className="mt-4 mb-4">
                 <a href="#web"  className="transition-none hover:text-white hover:underline">

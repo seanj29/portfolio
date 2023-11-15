@@ -13,7 +13,7 @@ const ProjectsPage = () => {
         <Navbar/>
         <div className="flex mt-20 lg:mx-20">
         <ProjectCard/>
-        <ProjectsSidebar/>
+        <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
         </div>
         </div>
     )
