@@ -10,11 +10,15 @@ import ProjectsSidebar from "../components/ProjectsSidebar";
 const ProjectsPage = () => {
     return(    
         <div className="mx-auto px-6 py-12">
-        <Navbar/>
-        <div className="flex mt-20 lg:mx-20">
-        <ProjectCard/>
-        <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
-        </div>
+            <Navbar/>
+            <div className="flex mt-20 lg:mx-20">
+                <ul>
+                    <ProjectCard/>
+                    <ProjectCard/>
+                    <ProjectCard/>
+                </ul>
+                <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
+            </div>
         </div>
     )
 }
