@@ -14,11 +14,11 @@ const ProjectsPage = () => {
             <Navbar/>
             <div className="flex mt-20 lg:mx-20">
                 <div className="flex flex-col">
-                <div className="flex flex-col" id ="WebDev">
+                    <div className="flex flex-col">
                         <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
                             Web Development Projects
                         </h1>
-                        <ul>
+                        <ul id="WebDev">
                             {Projects
                             .filter((project) => 
                             (
@@ -33,11 +33,11 @@ const ProjectsPage = () => {
                             }
                         </ul>
                     </div>
-                    <div className="flex flex-col" id ="GameDev">
+                    <div className="flex flex-col">
                         <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
                             Game Development Projects
                         </h1>
-                        <ul>
+                        <ul id ="GameDev">
                             {Projects
                             .filter((project) => 
                             (
@@ -52,11 +52,11 @@ const ProjectsPage = () => {
                             }
                         </ul>
                     </div>
-                    <div className="flex flex-col" id ="MiscDev">
+                    <div className="flex flex-col">
                         <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
                             Other Development Projects
                         </h1>
-                        <ul>
+                        <ul id ="MiscDev">
                             {Projects
                             .filter((project) => 
                             (

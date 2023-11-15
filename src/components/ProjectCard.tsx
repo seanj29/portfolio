@@ -17,8 +17,8 @@ const ProjectCard = (props:ProjectCardProps) =>{
   
     return (
       <li className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
-        <div className="h-auto mb-2 lg:mr-4">
-          <img className="rounded-lg" src={images[imagekey ?? ""]} alt={title ? title + " Project Image": "Project Title not found"} />
+        <div className="h-auto min-w-[20%] mb-2 lg:mr-4">
+          <img className="rounded-lg" src={images[imagekey ?? ""]} alt={(imagekey && title) ? title + " Project Image": "Project Has no image or title not Present"} />
         </div>
         <div className="flex flex-col items-start justify-center">
           <h2 className="text-gray-800 dark:text-gray-400 text-lg lg:text-2xl font-bold font-ubuntu">

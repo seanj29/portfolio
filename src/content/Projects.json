@@ -7,6 +7,19 @@
         "githubURL": "https://github.com/seanj29/Minotaurus",
         "itchURl":"https://seanj29.itch.io/minotaurus",
         "tag": "game"
+    },
+    {
+        "title": "vscode-language-renpy",
+        "imagekey": "VSRenpy",
+        "desc": "Contributed to an extension that adds VSCode support to the Renpy Programming Language. Mainly Typescript, with a little bit of node for running the process",
+        "githubURL": "https://github.com/seanj29/vscode-language-renpy",
+        "tag": "web"
+    },
+    {
+        "title": "Trade-Checker",
+        "desc": "Simple C# Command Line program I made for a coding challenge that monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database.",
+        "githubURL": "https://github.com/seanj29/Trade-checker",
+        "tag": "misc"
     }
 ]
 }
