@@ -1,6 +1,6 @@
 import React from "react"
-import ScreenShot from "../images/ss.png"
 import text from "../content/Projects.json"
+import { images } from "./ImageWrapper"
 const ProjectCard = () =>{
 //TODO: add props to this component
   const hasGithub = true;
@@ -9,10 +9,10 @@ const ProjectCard = () =>{
     return (
       <div className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
         <div className="h-auto mb-2 lg:mr-4">
-          <img className="rounded-lg" src={ScreenShot} alt="Profile-Minotaurus" />
+          <img className="rounded-lg" src={images[text.Projects[0].imagekey]} alt="Profile-Minotaurus" />
         </div>
         <div className="flex flex-col items-start justify-center">
-          <h2 className="text-gray-200 text-lg lg:text-2xl font-bold font-ubuntu">
+          <h2 className="text-gray-800 dark:text-gray-400 text-lg lg:text-2xl font-bold font-ubuntu">
             {text.Projects[0].title}
           </h2>
           <p className="text-sm lg:text-base lg:mr-96">

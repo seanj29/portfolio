@@ -2,6 +2,7 @@
     "Projects": [
     {
         "title": "Minotaurus",
+        "imagekey": "Minotaurus",
         "desc": "A game where you wander around as a minotaur in a dungeon hunting mages (who also throw fireballs!) Not completed and no plants to complete it at the moment.",
         "githubURL": "https://github.com/seanj29/Minotaurus",
         "itchURl":"https://seanj29.itch.io/minotaurus",
