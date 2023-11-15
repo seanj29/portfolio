@@ -4,6 +4,7 @@ import { SEO } from "../components/seo";
 import Navbar from "../components/nav";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsSidebar from "../components/ProjectsSidebar";
+import { Projects } from "../content/Projects.json";
 
 
 
@@ -13,9 +14,7 @@ const ProjectsPage = () => {
             <Navbar/>
             <div className="flex mt-20 lg:mx-20">
                 <ul>
-                    <ProjectCard/>
-                    <ProjectCard/>
-                    <ProjectCard/>
+                    {Projects.map((project) => <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>)}
                 </ul>
                 <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
             </div>

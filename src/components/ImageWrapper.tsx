@@ -1,6 +1,6 @@
 import ScreenShot from "../images/ss.png"
 
-interface ImageData {
+type ImageData = {
     [key: string]: string;
   }
 
