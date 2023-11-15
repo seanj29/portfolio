@@ -2,7 +2,7 @@ import React from "react"
 import ScreenShot from "../images/ss.png"
 
 const ProjectCard = () =>{
-
+//TODO: add props to this component
   const hasGithub = true;
   const hasItch = true;
   
