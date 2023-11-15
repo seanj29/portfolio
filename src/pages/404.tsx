@@ -7,7 +7,7 @@ import Navbar from "../components/nav";
 
 const NotFoundPage = () => {
     return(    
-        <div className="container mx-auto px-6 py-12">
+        <div className="mx-auto px-6 py-12">
           <Navbar/>
         <div className="mt-20 mx-10 lg:mx-20">
           <h1>Page not found</h1>

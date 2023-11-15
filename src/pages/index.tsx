@@ -16,7 +16,7 @@ const IndexPage = () =>{
 
   return (
     
-    <div className="container mx-auto px-6 py-12">
+    <div className="mx-auto px-6 py-12">
     <Navbar/>
     <div className="mt-20 mx-10 lg:mx-20">
       <h1 className="text-gray-200 text-4xl font-ubuntu font-semibold">
