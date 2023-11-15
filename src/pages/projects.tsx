@@ -14,7 +14,18 @@ const ProjectsPage = () => {
             <Navbar/>
             <div className="flex mt-20 lg:mx-20">
                 <ul>
-                    {Projects.map((project) => <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>)}
+                    {Projects
+                    .filter((project) => 
+                    (
+                        project.tag === "game"
+                    )
+                    )
+                    .map((project) => 
+                    (
+                        <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>
+                    )
+                    )
+                    }
                 </ul>
                 <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
             </div>

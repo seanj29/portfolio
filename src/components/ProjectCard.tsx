@@ -16,7 +16,7 @@ const ProjectCard = (props:ProjectCardProps) =>{
 //TODO: add props to this component
   
     return (
-      <div className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
+      <li className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
         <div className="h-auto mb-2 lg:mr-4">
           <img className="rounded-lg" src={images[imagekey ?? ""]} alt={title ? title + " Project Image": "Project Title not found"} />
         </div>
@@ -40,7 +40,7 @@ const ProjectCard = (props:ProjectCardProps) =>{
                           </a>}
           </div>
         </div>
-      </div>
+      </li>
     )
   }
 
