@@ -16,7 +16,7 @@ const Navbar = () =>{
                 </svg>
             </button>
         </div>
-        <div className="mt-4 flex w-full justify-center block text-3xl lg:text-xl lg:w-auto lg:justify-end">
+        <div className="mt-4 flex w-full justify-start block text-3xl lg:text-xl lg:w-auto lg:justify-end">
             <ul className="block divide-y lg:divide-y-0">
                 <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
                     <Link to="/about" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">

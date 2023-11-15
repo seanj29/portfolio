@@ -12,7 +12,7 @@ const ProjectCard = () =>{
           <img className="rounded-lg" src={ScreenShot} alt="Profile-Minotaurus" />
         </div>
         <div className="flex flex-col items-start justify-center">
-          <h2 className="text-lg lg:text-2xl font-bold font-ubuntu">
+          <h2 className="text-gray-200 text-lg lg:text-2xl font-bold font-ubuntu">
             Temp project
           </h2>
           <p className="text-sm lg:text-base lg:mr-96">

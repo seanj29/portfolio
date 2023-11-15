@@ -16,7 +16,7 @@ const Header = (props: HeaderProps) =>{
                 {Title ?? "Sean Otto"}
             </Link>
         </h1>
-        <h2 className="mt-3 txt-lg font-medium">
+        <h2 className="text-slate-50/70 mt-3 txt-lg font-medium">
             Software Engineer
         </h2>
     </div>
