@@ -9,9 +9,9 @@ import ProjectsSidebar from "../components/ProjectsSidebar";
 
 const ProjectsPage = () => {
     return(    
-        <div className="mx-auto px-6 py-12">
+        <div className="mx-auto">
         <Navbar/>
-        <div className="flex mt-20 mx-10 lg:mx-20 justify-between">
+        <div className="flex mt-20 mx-8 lg:mr-20">
         <ProjectCard/>
         <ProjectsSidebar/>
         </div>
