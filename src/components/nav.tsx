@@ -4,7 +4,7 @@ import Header from "./header"
 const Navbar = () =>{
 
     return (
-    <nav className="flex items-center justify-between flex-wrap p-6 bg-slate-900 lg:sticky lg:top-2">
+    <nav className="flex items-center justify-between flex-wrap p-6 bg-slate-900 lg:sticky lg:top-0">
         <div>
             <Header/>
         </div>
@@ -19,17 +19,17 @@ const Navbar = () =>{
         <div className="mt-4 flex w-full justify-start block text-3xl lg:text-xl lg:w-auto lg:justify-end">
             <ul className="block divide-y lg:divide-y-0">
                 <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
-                    <Link to="/about" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
+                    <Link to="/about" activeClassName="text-teal-600" className="hover:text-white hover:underline">
                         About
                     </Link>
                 </li>
                 <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
-                    <Link to="/experience" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
+                    <Link to="/experience" activeClassName="text-teal-600" className="hover:text-white hover:underline">
                         Experience
                     </Link>
                 </li>
                 <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
-                    <Link to="/projects" activeClassName="text-teal-600" className="transition-none hover:text-white hover:underline">
+                    <Link to="/projects" activeClassName="text-teal-600" className="hover:text-white hover:underline">
                         Projects
                     </Link>
                 </li>
