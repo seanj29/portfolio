@@ -1,19 +1,15 @@
 import { Link } from "gatsby";
 import React from "react"
 
-type HeaderProps = {
 
-    Title?: string,
-}
 
-const Header = (props: HeaderProps) =>{
-    const { Title} = props;
+const Header = () =>{
 
     return (
     <div className="text-gray-200 font-ubuntu">
         <h1 className="text-4xl font-bold">
             <Link to="/">
-                {Title ?? "Sean Otto"}
+                Sean Otto
             </Link>
         </h1>
         <h2 className="text-slate-50/70 mt-3 txt-lg font-medium">
