@@ -14,15 +14,15 @@ const ProjectsPage = () => {
             <Navbar/>
             <div className="flex mt-20 lg:mx-20">
                 <div className="flex flex-col">
-                    <div className="flex flex-col" id ="GameDev">
+                <div className="flex flex-col" id ="WebDev">
                         <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
-                            Game Development Projects
+                            Web Development Projects
                         </h1>
                         <ul>
                             {Projects
                             .filter((project) => 
                             (
-                                project.tag === "game"
+                                project.tag === "web"
                             )
                             )
                             .map((project) => 
@@ -33,16 +33,15 @@ const ProjectsPage = () => {
                             }
                         </ul>
                     </div>
-
-                    <div className="flex flex-col" id ="WebDev">
+                    <div className="flex flex-col" id ="GameDev">
                         <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
-                            Web Development Projects
+                            Game Development Projects
                         </h1>
                         <ul>
                             {Projects
                             .filter((project) => 
                             (
-                                project.tag === "web"
+                                project.tag === "game"
                             )
                             )
                             .map((project) => 
