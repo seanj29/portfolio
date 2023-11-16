@@ -8,18 +8,18 @@ type ProjectCardProps ={
     desc:string
     githubURL?: string,
     itchURl?:string,
-
+    tag:string,
 }
 
 const ProjectCard = (props:ProjectCardProps) =>{
-  const {title, imagekey, desc, githubURL, itchURl} = props
+  const {title, imagekey, desc, githubURL, itchURl, tag} = props
 //TODO: add props to this component
   
     return (
       <li className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
-        <div className="h-auto min-w-[20] max-w-sm mb-2 lg:mr-4">
-          <img className="rounded-lg" src={images[imagekey ?? ""]} alt={(imagekey && title) ? title + " Project Image": "Project Has no image or title is not present"} />
-        </div>
+          <a href={((tag === "game") && itchURl ? itchURl : githubURL) ?? "#"} className="h-auto min-w-[20] max-w-sm mb-2 lg:mr-4">
+            <img className="rounded-lg" src={images[imagekey ?? ""]} alt={(imagekey && title) ? title + " Project Image": "Project Has no image or title is not present"} />
+          </a>
         <div className="flex flex-col items-start justify-center">
           <h2 className="text-gray-800 dark:text-gray-400 text-lg lg:text-2xl font-bold font-ubuntu">
             {title}

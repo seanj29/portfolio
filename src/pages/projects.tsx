@@ -27,7 +27,7 @@ const ProjectsPage = () => {
                             )
                             .map((project) => 
                             (
-                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>
+                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl} tag ={project.tag}/>
                             )
                             )
                             }
@@ -46,7 +46,7 @@ const ProjectsPage = () => {
                             )
                             .map((project) => 
                             (
-                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>
+                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl} tag ={project.tag}/>
                             )
                             )
                             }
@@ -65,7 +65,7 @@ const ProjectsPage = () => {
                             )
                             .map((project) => 
                             (
-                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl}/>
+                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} itchURl={project.itchURl} tag ={project.tag}/>
                             )
                             )
                             }
