@@ -2,16 +2,19 @@ import React from "react"
 
 
 
-const ProjectCard = () =>{
+const ExperienceCard = () =>{
   
     
       return (
-        <li className="grid mb-10 mr-4 lg:ml-2">
-         <>
+        <li className="grid grid-cols-8 mb-10 mr-4 lg:ml-2">
+         <div>
          Hiiii
-         </>
+         </div>
+         <div>
+         Hiiii
+         </div>
         </li>
       )
     }
   
-  export default ProjectCard
+  export default ExperienceCard

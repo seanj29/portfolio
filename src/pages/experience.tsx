@@ -2,6 +2,7 @@ import React from "react";
 import type { HeadFC } from "gatsby"
 import { SEO } from "../components/seo";
 import Navbar from "../components/nav";
+import ExperienceCard from "../components/ExperienceCard";
 
 
 
@@ -10,6 +11,7 @@ const ExperiencePage = () => {
         <div className="mx-auto px-6 py-12">
         <Navbar/>
         <div className="mt-10 mx-6 lg:mx-20">
+            <ExperienceCard/>
         </div>
         </div>
     )
