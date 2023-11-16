@@ -9,6 +9,14 @@
         "tag": "game"
     },
     {
+        "title": "Diece",
+        "imagekey": "Diece",
+        "desc": "A visual novel, written in Renpy (using Python) where you play as a little guy and run do some turn based combat against some not so little guys. Just a fun little end of year project",
+        "githubURL": "https://github.com/seanj29/Diece",
+        "itchURl":"https://seanj29.itch.io/diece-student-project",
+        "tag": "game"
+    },
+    {
         "title": "vscode-language-renpy",
         "imagekey": "VSRenpy",
         "desc": "Contributed to an extension that adds VSCode support to the Renpy Programming Language. Mainly Typescript, with a little bit of node for running the process",

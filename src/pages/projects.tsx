@@ -15,7 +15,7 @@ const ProjectsPage = () => {
             <div className="flex mt-20 lg:mx-20">
                 <div className="flex flex-col">
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
+                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Web Development Projects
                         </h1>
                         <ul id="WebDev">
@@ -34,7 +34,7 @@ const ProjectsPage = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
+                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Game Development Projects
                         </h1>
                         <ul id ="GameDev">
@@ -53,7 +53,7 @@ const ProjectsPage = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-4xl font-bold mb-4">
+                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Other Development Projects
                         </h1>
                         <ul id ="MiscDev">
