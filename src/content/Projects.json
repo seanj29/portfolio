@@ -25,7 +25,7 @@
     },
     {
         "title": "Trade-Checker",
-        "desc": "Simple C# Command Line program I made for a coding challenge that monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database.",
+        "desc": "Simple Command Line program I made for a coding challenge that monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database. \n\n Uses C# for the program and SQLite for the backend.",
         "githubURL": "https://github.com/seanj29/Trade-checker",
         "tag": "misc"
     }
