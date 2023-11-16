@@ -6,7 +6,7 @@ const ExperienceCard = () =>{
   
     
       return (
-        <li className="grid grid-cols-8 mb-10 mr-4 lg:ml-2">
+        <li className="grid sm:grid-cols-8 mb-10 mr-4 lg:ml-2">
          <div>
          Hiiii
          </div>
