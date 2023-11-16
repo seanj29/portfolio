@@ -3,15 +3,8 @@ import type { HeadFC } from "gatsby"
 import Bio from "../components/bio";
 import Navbar from "../components/nav";
 import { SEO } from "../components/seo";
+import { BioText } from "../content/Projects.json"
 
-
-const bioText = ` I'm Sean Otto, a software engineer based in the beautiful hills of Surrey, UK. 
-
-I love developing games, front end websites and small command line programs.
-
-I'm passionate about emergent-tech, beautiful interfaces and intuitive programming. I also love my gf sooooo much 
-
-To find out more about any of my projects, feel free to select any of the links on the right!`
 const IndexPage = () =>{
 
   return (
@@ -22,7 +15,7 @@ const IndexPage = () =>{
       <h1 className="text-gray-200 text-4xl font-ubuntu font-semibold">
         Hi there!
       </h1>
-      <Bio TextContent={bioText}/>
+      <Bio TextContent={BioText}/>
     </div>
     </div>
   )
