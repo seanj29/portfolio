@@ -12,8 +12,9 @@ type ProjectCardProps ={
 }
 
 const ProjectCard = (props:ProjectCardProps) =>{
+  
   const {title, imagekey, desc, githubURL, itchURl, tag} = props
-//TODO: add props to this component
+
   
     return (
       <li className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
