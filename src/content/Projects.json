@@ -1,6 +1,19 @@
 {
     "Projects": [
     {
+        "title": "This Website!",
+        "desc": "This website was made with Gatsby and React, using a small JSON file to emulate a kind of back-end. \n\n Feel free to modify and use for your own portfolio, you can find the repo below:",
+        "githubURL": "https://github.com/seanj29/portfolio",
+        "tag": "web"
+    },
+    {
+        "title": "vscode-language-renpy",
+        "imagekey": "VSRenpy",
+        "desc": "Contributed to an extension that adds VSCode support to the Renpy Programming Language.\n\n  Mostly a Typescript project, with a little bit of node for the running process",
+        "githubURL": "https://github.com/seanj29/vscode-language-renpy",
+        "tag": "web"
+    },
+    {
         "title": "Minotaurus",
         "imagekey": "Minotaurus",
         "desc": "A game where you wander around as a minotaur in a dungeon hunting mages (who also throw fireballs!). \n\nMade using Phaser and JavaScript. Code is available on github, and feel free to play it in the browser on itch!",
@@ -17,11 +30,11 @@
         "tag": "game"
     },
     {
-        "title": "vscode-language-renpy",
-        "imagekey": "VSRenpy",
-        "desc": "Contributed to an extension that adds VSCode support to the Renpy Programming Language.\n\n  Mostly a Typescript project, with a little bit of node for the running process",
-        "githubURL": "https://github.com/seanj29/vscode-language-renpy",
-        "tag": "web"
+        "title": "TicTacToeMultiplayer",
+        "imagekey": "TicTac",
+        "desc": "A tic tac toe client/server pair made with SDL2 and Java. Uses TCP to transfer a single string over a network port. \n\nServer was made in Java using the FXGL game engine.",
+        "githubURL": "https://github.com/seanj29/CI628-PongClient-master",
+        "tag": "game"
     },
     {
         "title": "Trade-Checker",
