@@ -4,7 +4,7 @@ import { SEO } from "../components/seo";
 import Navbar from "../components/nav";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsSidebar from "../components/ProjectsSidebar";
-import { Projects } from "../content/Projects.json";
+import { Projects } from "../content/data.json";
 
 
 

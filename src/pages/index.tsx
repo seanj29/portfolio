@@ -3,7 +3,7 @@ import type { HeadFC } from "gatsby"
 import Bio from "../components/bio";
 import Navbar from "../components/nav";
 import { SEO } from "../components/seo";
-import { BioText } from "../content/Projects.json"
+import { BioText } from "../content/data.json"
 
 const IndexPage = () =>{
 

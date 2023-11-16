@@ -8,6 +8,9 @@ const Navbar = () =>{
     
     const [nav, showNav] = useState(false)
 
+    const name = "seanotto29+portfolio"
+    const domain = "gmail.com"
+    const linktomail = `mailto:${name}@${domain}`
     return (
     <nav className="flex rounded-lg items-center justify-between flex-wrap p-6 bg-slate-900 lg:rounded-none lg:sticky lg:top-0">
         <div>
@@ -39,9 +42,9 @@ const Navbar = () =>{
                     </Link>
                 </li>
                 <li className="pt-2 lg:pt-0 lg:inline-block lg:border-x lg:px-2">
-                    <Link to="/404" activeClassName="text-teal-600" className="hover:text-white hover:underline cursor-not-allowed">
-                        Contact
-                    </Link>
+                    <a href={linktomail} className="hover:text-white hover:underline cursor-not-allowed">
+                        Contact Me
+                    </a>
                 </li>
             </ul>
         </div>
