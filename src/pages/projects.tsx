@@ -5,6 +5,7 @@ import Navbar from "../components/nav";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsSidebar from "../components/ProjectsSidebar";
 import { Projects } from "../content/data.json";
+import Footer from "../components/socials";
 
 
 
@@ -74,6 +75,7 @@ const ProjectsPage = () => {
                 </div>
                 <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
             </div>
+            <Footer/>
         </div>
     )
 }
