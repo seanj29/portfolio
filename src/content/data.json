@@ -43,5 +43,18 @@
         "githubURL": "https://github.com/seanj29/Trade-checker",
         "tag": "misc"
     }
+    ],
+    "Experiences": [
+    {
+        "date": "June 2023 - Present",
+        "title": "Technical Support Engineer · Nexudus",
+        "otherRoles": "First Line Support Technician",
+        "desc": "Styled and iterated upon company websites upon websites for multi-national co-working spaces, including firms such as Meta, citizenM, Roundhouse Works and Platform. Provided continued support and assistance to clients throughout the process, increasing team overall CSAT score throughout the entire process"
+    },
+    {
+        "date": " February 2023 - June 2023",
+        "title": "Lead Code Teacher · Code Camp",
+        "desc": "Taught Kids how to use CodeCamp World, a javascript-based game design framework. \nMostly consisted of short, after school lessons. Code Camp also does holiday camps with more intensive training."
+    }
     ]
 }
