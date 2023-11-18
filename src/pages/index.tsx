@@ -4,6 +4,7 @@ import Bio from "../components/bio";
 import Navbar from "../components/nav";
 import { SEO } from "../components/seo";
 import { BioText } from "../content/data.json"
+import Footer from "../components/socials";
 
 const IndexPage = () =>{
 
@@ -16,6 +17,7 @@ const IndexPage = () =>{
         Hi there!
       </h1>
       <Bio TextContent={BioText}/>
+      <Footer/>
     </div>
     </div>
   )
