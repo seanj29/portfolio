@@ -80,7 +80,7 @@ const ProjectsPage = () => {
 
 export const Head: HeadFC = () => (
     <>
-    <SEO title="Projects" />
+    <SEO title="Projects" description="Short Showcase of my past projects" />
     <body className = "bg-slate-500 dark:bg-slate-800 text-slate-800 dark:text-slate-400 font-ubuntu"></body>
     </>
 )

@@ -13,8 +13,8 @@ export const SEO = (props: siteMetadata) => {
     const { title, description, siteUrl, children} = props
 
   const seo = {
-    title: title || "Sean Otto",
-    description: description || "Short Showcase of my past projects",
+    title: title || "404",
+    description: description || "This page is does not exist",
     url: `${siteUrl}`,
   }
 
