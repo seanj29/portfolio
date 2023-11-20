@@ -39,9 +39,9 @@ const Navbar = () =>{
                     </Link>
                 </li>
                 <li className="pt-2 lg:pt-0 lg:inline-block lg:border-x lg:px-2">
-                    <a href="/contact" className="hover:text-white hover:underline">
+                    <Link to="/contact" activeClassName="text-teal-600" className="hover:text-white hover:underline">
                         Contact Me
-                    </a>
+                    </Link>
                 </li>
             </ul>
         </div>
