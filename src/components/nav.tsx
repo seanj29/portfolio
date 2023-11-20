@@ -39,7 +39,7 @@ const Navbar = () =>{
                     </Link>
                 </li>
                 <li className="pt-2 lg:pt-0 lg:inline-block lg:border-x lg:px-2">
-                    <a href="mailto:seanotto29+portfoliogmail.com" className="hover:text-white hover:underline">
+                    <a href="/contact" className="hover:text-white hover:underline">
                         Contact Me
                     </a>
                 </li>
