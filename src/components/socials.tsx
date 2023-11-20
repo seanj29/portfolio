@@ -5,7 +5,7 @@ import React from "react"
 const Footer = () =>{
 
     return (
-    <ul className="mt-8 flex items-center">
+    <ul className="fixed bottom-0 flex items-center">
         <li className="mr-2 text-xs">
             <span className="sr-only">
                 Github

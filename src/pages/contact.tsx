@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import type { HeadFC } from "gatsby"
 import Navbar from "../components/nav"
 import { SEO } from "../components/seo"
+import Footer from "../components/socials";
 
 
 const ContactPage = () =>{
@@ -14,7 +15,6 @@ const ContactPage = () =>{
   const [numberValue, setNumberValue] = useState("")
   const [subjectValue, setSubjectValue] = useState("")
   const [messageValue, setMessageValue] = useState("")
-  const [buttonDisabled, setButtonDisabled] = useState(true)
 
   function handleFormSubmit(){
     window.open(`${formUrl}&entry.1588175006=${encodeURI(nameValue)}&entry.1500911423=${encodeURI(subjectValue)}&entry.1931597131=${encodeURI(emailValue)}&entry.43927614=${encodeURI(numberValue)}&entry.142169962=${encodeURI(messageValue)}`, "_blank")
@@ -53,6 +53,7 @@ const ContactPage = () =>{
           </form>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
