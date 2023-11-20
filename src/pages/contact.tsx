@@ -6,9 +6,9 @@ import { SEO } from "../components/seo";
 
 const ContactPage = () =>{
 
-    // &entry.1588175006=a&entry.1500911423=a&entry.1931597131=a@a.com&entry.43927614=22&entry.142169962=a
-  const formurl = "https://docs.google.com/forms/d/e/1FAIpQLSfCHRDEFYbuwJ_AO0Mr2wlgFzDs6C8nhw6ncDplNNdJIEwpQA/formResponse?usp=pp_url"
+    //
 
+  const [formurl, setFormUrl] = useState("https://docs.google.com/forms/d/e/1FAIpQLSfCHRDEFYbuwJ_AO0Mr2wlgFzDs6C8nhw6ncDplNNdJIEwpQA/formResponse?usp=pp_url")
   const [nameValue, setNameValue] = useState("")
   const [emailValue, setEmailValue] = useState("")
   const [numberValue, setNumberValue] = useState("")
@@ -21,10 +21,15 @@ const ContactPage = () =>{
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20 bg-white dark:bg-gray-900 rounded-lg">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <form action="#" className="space-y-8" autoComplete="on">
+          <form action="#" className="space-y-8" autoComplete="on" onSubmit={() => {
+              setFormUrl(`${formurl}"&entry.1588175006="${encodeURI(nameValue)}&entry.1500911423=${encodeURI(subjectValue)}&entry.1931597131=${encodeURI(emailValue)}&entry.43927614=${encodeURI(numberValue)}&entry.142169962=${encodeURI(messageValue)}`)
+              console.log(formurl)
+              }
+              }
+              >
               <div>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name<span className="text-red-600"> *</span></label>
-                <input type="text" id="name" value={nameValue} onChange={e => setNameValue(e.target.value)} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="John Smith" required/>
+                <input type="text" id="name" value={nameValue} onChange={(e) => setNameValue(e.target.value)} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="John Smith" required/>
               </div>
               <div>
                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
