@@ -8,6 +8,8 @@ import Footer from "../components/socials";
 
 const IndexPage = () =>{
 
+
+
   return (
     
     <div className="mx-auto px-6 py-12">
