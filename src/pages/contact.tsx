@@ -62,7 +62,7 @@ export default ContactPage
 
 export const Head: HeadFC = () => (
       <>
-      <SEO title="Contact Form" description="Portfolio for Sean Otto"/>
+      <SEO title="Contact Form" description="Contact Form"/>
       <body className = "bg-slate-500 dark:bg-slate-800 text-slate-800 dark:text-slate-400 font-ubuntu"></body>
       </>
 )
