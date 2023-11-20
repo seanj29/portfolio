@@ -15,17 +15,18 @@ const ContactPage = () =>{
   const [subjectValue, setSubjectValue] = useState("")
   const [messageValue, setMessageValue] = useState("")
 
+  function handleFormSubmit(){
+    setFormUrl(`${formurl}&entry.1588175006=${encodeURI(nameValue)}&entry.1500911423=${encodeURI(subjectValue)}&entry.1931597131=${encodeURI(emailValue)}&entry.43927614=${encodeURI(numberValue)}&entry.142169962=${encodeURI(messageValue)}`)
+    console.log(formurl)
+  }
+
   return (
     
     <div className="mx-auto px-6 py-12">
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20 bg-white dark:bg-gray-900 rounded-lg">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-          <form action="#" className="space-y-8" autoComplete="on" onSubmit={() => {
-              setFormUrl(`${formurl}"&entry.1588175006="${encodeURI(nameValue)}&entry.1500911423=${encodeURI(subjectValue)}&entry.1931597131=${encodeURI(emailValue)}&entry.43927614=${encodeURI(numberValue)}&entry.142169962=${encodeURI(messageValue)}`)
-              console.log(formurl)
-              }
-              }
+          <form action="#" className="space-y-8" autoComplete="on" onSubmit={handleFormSubmit}
               >
               <div>
                 <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Full Name<span className="text-red-600"> *</span></label>
@@ -49,7 +50,7 @@ const ContactPage = () =>{
                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message<span className="text-red-600"> *</span></label>
                 <textarea id="message" value={messageValue} onChange={e => setMessageValue(e.target.value)} rows={6} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 " placeholder="Leave a comment..." required></textarea>
               </div>
-              <button type="submit" disabled className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:bg-teal-700 disabled:dark:hover:bg-teal-600">Submit</button>
+              <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:bg-teal-700 disabled:dark:hover:bg-teal-600">Submit</button>
           </form>
         </div>
       </div>
