@@ -6,6 +6,9 @@ import { SEO } from "../components/seo";
 
 const ContactPage = () =>{
 
+  // &entry.1588175006=a&entry.1500911423=a&entry.1931597131=a@a.com&entry.43927614=22&entry.142169962=a
+const formurl = "https://docs.google.com/forms/d/e/1FAIpQLSfCHRDEFYbuwJ_AO0Mr2wlgFzDs6C8nhw6ncDplNNdJIEwpQA/formResponse?usp=pp_url"
+
   return (
     
     <div className="mx-auto px-6 py-12">
@@ -19,7 +22,7 @@ const ContactPage = () =>{
               </div>
               <div>
                 <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                <input type="text" id="subject" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="What is your inquiry about?"/>
+                <input type="text" id="subject" autoComplete="off" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="What is your inquiry about?"/>
               </div>
               <div className="inline-flex space-x-24">
                 <div>
@@ -35,7 +38,7 @@ const ContactPage = () =>{
                 <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Message</label>
                 <textarea id="message" rows={6} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
               </div>
-              <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800">Submit</button>
+              <button type="submit" disabled className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:bg-teal-700 disabled:dark:hover:bg-teal-600">Submit</button>
           </form>
         </div>
       </div>

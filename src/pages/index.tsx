@@ -8,7 +8,6 @@ import Footer from "../components/socials";
 
 const IndexPage = () =>{
 
-// https://docs.google.com/forms/d/e/1FAIpQLSfCHRDEFYbuwJ_AO0Mr2wlgFzDs6C8nhw6ncDplNNdJIEwpQA/viewform?usp=pp_url&entry.1588175006=a&entry.1500911423=a&entry.1931597131=a@a.com&entry.43927614=22&entry.142169962=a
 
 
   return (
