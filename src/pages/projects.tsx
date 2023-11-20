@@ -75,7 +75,7 @@ const ProjectsPage = () => {
                 </div>
                 <ProjectsSidebar styles="mx-auto w-fit h-auto hidden lg:contents"/>
             </div>
-            <div className="fixed right-0 mr-64">
+            <div className="fixed hidden mr-64 right-0 lg:contents">
             <Footer/>
             </div>
         </div>
