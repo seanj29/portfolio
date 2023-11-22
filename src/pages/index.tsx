@@ -12,14 +12,16 @@ const IndexPage = () =>{
 
   return (
     
-    <div className="mx-auto px-6 py-12">
+    <div className="relative w-screen h-screen mx-auto px-6 py-12">
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20">
         <h1 className="text-gray-200 text-4xl font-ubuntu font-semibold">
           Hi there!
         </h1>
         <Bio TextContent={BioText}/>
+        <div className="absolute bottom-0" >
         <Footer/>
+        </div>
       </div>
     </div>
   )

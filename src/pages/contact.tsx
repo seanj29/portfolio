@@ -22,7 +22,7 @@ const ContactPage = () =>{
 
   return (
     
-    <div className="mx-auto px-6 py-12">
+    <div className="relative w-full h-full mx-auto px-6 py-12">
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20 bg-white dark:bg-gray-900 rounded-lg">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
