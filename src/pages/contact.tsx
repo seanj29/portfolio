@@ -47,7 +47,7 @@ const ContactPage = () =>{
                 <textarea id="message" value={messageValue} onChange={e => setMessageValue(e.target.value)} rows={6} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 " placeholder="Leave a comment..." required></textarea>
               </div>
               <input type="hidden" name="_gotcha" className="hidden"></input>
-              <button type="submit" disabled={(nameValue && subjectValue && emailValue) ? false: true} className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:bg-teal-700 disabled:dark:hover:bg-teal-600">Submit (Brings you to google forms with the options filled out)</button>
+              <button type="submit" disabled={(nameValue && subjectValue && emailValue) ? false: true} className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-700 sm:w-fit hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 dark:bg-teal-600 dark:hover:bg-teal-700 dark:focus:ring-teal-800 disabled:cursor-not-allowed disabled:opacity-25 disabled:hover:bg-teal-700 disabled:dark:hover:bg-teal-600">Submit</button>
           </form>
         </div>
       </div>
