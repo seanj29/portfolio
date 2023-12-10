@@ -15,5 +15,7 @@ Feel free to edit / use as you wish
 
 - Edit the `data.json` file if you want to edit the various text throughout the project.
 
+- tests can be run via `npm run test` and are built with jest. You can edit or add more tests in the test folder within src/tests
+
 If you have any questions, or notice any bugs, please feel free to use the contact form, or even raise an issue on Github
 

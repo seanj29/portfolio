@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Sean Otto`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `seanotto.dev`,
     description: `Short Showcase of my past projects`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
