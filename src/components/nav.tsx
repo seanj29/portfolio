@@ -22,7 +22,7 @@ const Navbar = () =>{
             </button>
         </div>
         <div className={`mt-4 flex w-full justify-start lg:block text-3xl lg:text-xl lg:w-auto lg:justify-end ${ nav ? " block": "hidden" }`}>
-            <ul className="block divide-y lg:divide-y-0">
+            <ul className="block divide-y divide-current lg:divide-y-0">
                 <li className="py-2 lg:py-0 lg:inline-block lg:border-l lg:px-2">
                     <Link to="/" activeClassName="text-teal-600" className="hover:text-blue-600 dark:hover:text-white hover:underline">
                         Home

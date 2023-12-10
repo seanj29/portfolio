@@ -15,7 +15,7 @@ const IndexPage = () =>{
     <div className="relative w-full h-full lg:w-screen lg:h-screen mx-auto px-6 py-12">
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20">
-        <h1 className="text-black dark: text-gray-200 text-4xl font-ubuntu font-semibold">
+        <h1 className="text-black dark:text-gray-200 text-4xl font-ubuntu font-bold dark:font-semibold ">
           Hi there!
         </h1>
         <Bio TextContent={BioText}/>
