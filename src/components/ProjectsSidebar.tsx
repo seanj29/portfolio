@@ -11,17 +11,17 @@ const ProjectsSidebar = ({styles}:SidebarProps) =>{
     <nav className={styles}>
         <ul className="flex flex-col">
             <li className="mt-4 mb-4">
-                <a href="#WebDev"  className="hover:text-white hover:underline">
+                <a href="#WebDev"  className="hover:text-blue-600 dark:hover:text-white hover:underline">
                     Web Development
                 </a>
             </li>
             <li className="mb-4">
-                <a href="#GameDev" className="hover:text-white hover:underline">
+                <a href="#GameDev" className="hover:text-blue-600 dark:hover:text-white hover:underline">
                     Game Development
                 </a>
             </li>
             <li className="mb-4">
-                <a href="#MiscDev" className="hover:text-white hover:underline">
+                <a href="#MiscDev" className="hover:text-blue-600 dark:hover:text-white hover:underline">
                     Misc Programming
                 </a>
             </li>

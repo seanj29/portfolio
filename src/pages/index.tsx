@@ -15,7 +15,7 @@ const IndexPage = () =>{
     <div className="relative w-full h-full lg:w-screen lg:h-screen mx-auto px-6 py-12">
       <Navbar/>
       <div className="mt-10 mx-6 lg:mx-20">
-        <h1 className="text-gray-200 text-4xl font-ubuntu font-semibold">
+        <h1 className="text-black dark: text-gray-200 text-4xl font-ubuntu font-semibold">
           Hi there!
         </h1>
         <Bio TextContent={BioText}/>
@@ -32,6 +32,6 @@ export default IndexPage
 export const Head: HeadFC = () => (
       <>
       <SEO title="Sean Otto" description="Portfolio for Sean Otto"/>
-      <body className = "bg-slate-500 dark:bg-slate-800 text-slate-800 dark:text-slate-400 font-ubuntu"></body>
+      <body className = "bg-white dark:bg-slate-800 text-black dark:text-slate-400 font-ubuntu"></body>
       </>
 )

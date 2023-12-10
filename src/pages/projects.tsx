@@ -5,7 +5,6 @@ import Navbar from "../components/nav";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsSidebar from "../components/ProjectsSidebar";
 import { Projects } from "../content/data.json";
-import Footer from "../components/socials";
 
 
 
@@ -16,7 +15,7 @@ const ProjectsPage = () => {
             <div className="flex mt-20 lg:mx-20">
                 <div className="flex flex-col">
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
+                        <h1 className="self-center text-black dark:text-white font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Web Development Projects
                         </h1>
                         <ul id="WebDev">
@@ -35,7 +34,7 @@ const ProjectsPage = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
+                        <h1 className="self-center text-black dark:text-white font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Game Development Projects
                         </h1>
                         <ul id ="GameDev">
@@ -54,7 +53,7 @@ const ProjectsPage = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col">
-                        <h1 className="self-center text-gray-200 font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
+                        <h1 className="self-center text-black dark:text-white font-ubuntu text-3xl lg:text-4xl font-bold mb-4">
                             Other Development Projects
                         </h1>
                         <ul id ="MiscDev">
@@ -82,7 +81,7 @@ const ProjectsPage = () => {
 export const Head: HeadFC = () => (
     <>
     <SEO title="Projects" description="Short Showcase of my past projects" />
-    <body className = "bg-slate-500 dark:bg-slate-800 text-slate-800 dark:text-slate-400 font-ubuntu"></body>
+    <body className = "bg-white dark:bg-slate-800 text-black dark:text-slate-400 font-ubuntu"></body>
     </>
 )
 

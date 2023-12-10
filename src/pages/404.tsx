@@ -25,7 +25,7 @@ const NotFoundPage = () => {
 export const Head: HeadFC = () => (
     <>
     <SEO/>
-    <body className = "bg-slate-500 dark:bg-slate-800 text-slate-800 dark:text-slate-400 font-ubuntu"></body>
+    <body className = "bg-white dark:bg-slate-800 text-black dark:text-slate-400 font-ubuntu"></body>
     </>
 )
 

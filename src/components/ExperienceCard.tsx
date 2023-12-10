@@ -16,11 +16,11 @@ const ExperienceCard = (props: ExperienceProps) =>{
     
       return (
         <li className="grid sm:grid-cols-8 mb-10 sm:gap-8 md:gap-4">
-         <header className="font-semibold text-2xl uppercase text-slate-500 sm:col-span-2">
+         <header className="font-semibold text-2xl uppercase text-black dark:text-slate-500 sm:col-span-2">
           {date}
          </header>
          <div className="sm:col-span-6">
-          <h3 className="text-3xl text-slate-200">
+          <h3 className="text-3xl text-gray-900 dark:text-slate-200">
             {title}
           </h3>
           {otherRoles && <p className="my-2 text-xl">{otherRoles} </p>}
