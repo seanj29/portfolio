@@ -8,18 +8,71 @@ type ProjectCardProps ={
     desc:string
     githubURL?: string,
     itchURl?:string,
+    deployURL?:string,
     tag:string,
+}
+
+function projectLink(tag: string, itchUrl?:string, githubURL?: string, deployURL?:string,) {
+  
+  
+  switch (tag){
+    case "game":
+      if (itchUrl){
+        return itchUrl
+      }
+      else if (githubURL){
+        return githubURL
+      }
+      else if (deployURL){
+        return deployURL
+      }
+      else {
+        return ""
+      }
+    case "web":
+      if (deployURL){
+        return deployURL
+      }
+      else if (githubURL){
+        return githubURL
+      }
+      else {
+        return ""
+      }
+    case "misc":
+      if (deployURL){
+        return deployURL
+      }
+      else if (githubURL){
+        return githubURL
+      }
+      else {
+        return ""
+      }
+      default:
+        if (deployURL){
+          return deployURL
+        }
+        else if (githubURL){
+          return githubURL
+        }
+        else {
+          return ""
+        }
+    
+  }
+
 }
 
 const ProjectCard = (props:ProjectCardProps) =>{
   
-  const {title, imagekey, desc, githubURL, itchURl, tag} = props
+  const {title, imagekey, desc, githubURL, itchURl, deployURL, tag} = props
 
   
     return (
       <li className="flex flex-col mb-10 mr-4 lg:ml-2 lg:flex-row">
         {imagekey &&
-          <a href={((tag === "game") && itchURl ? itchURl : githubURL) ?? "#"} className="h-auto min-w-[20] max-w-sm mb-2 lg:mr-4">
+          <a href={(projectLink(tag, itchURl, githubURL, deployURL)) ?? "#"} className="h-auto min-w-[20] max-w-sm mb-2 lg:mr-4">
             <img className="rounded-lg" src={images[imagekey]} alt={title ? title + " Project Image": "Project title is not present"} />
           </a>}
         <div className="flex flex-col items-start justify-center">
