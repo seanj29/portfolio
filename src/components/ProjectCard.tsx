@@ -79,7 +79,7 @@ const ProjectCard = (props:ProjectCardProps) =>{
           <h2 className="text-black dark:text-gray-400 text-lg lg:text-2xl font-bold font-ubuntu">
             {title}
           </h2>
-          <p className="text-sm whitespace-pre-line lg:text-base lg:mr-96">
+          <p className="text-sm mt-2 whitespace-pre-line lg:text-base lg:mr-96">
             {desc}
           </p>
           <div className="flex flex-row">
