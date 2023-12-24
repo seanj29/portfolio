@@ -27,7 +27,7 @@ const ProjectsPage = () => {
                             )
                             .map((project) => 
                             (
-                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} tag ={project.tag}/>
+                                <ProjectCard title={project.title} imagekey={project.imagekey} desc={project.desc} githubURL={project.githubURL} deployURL={project.deployURL} tag ={project.tag}/>
                             )
                             )
                             }

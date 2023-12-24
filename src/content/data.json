@@ -8,6 +8,14 @@
         "tag": "web"
     },
     {
+        "title": "Recipe Search",
+        "imagekey": "RecipeSearch",
+        "desc": "A Full stack web application made in NodeJS, and hosted in vercel.\n\n Contains a REST api that allows you to query a Postgress database of recipes pulled from\n Food Network and simple front-end that let's you search through each recipe in the api. \n\n Written with Nextjs in Typescript for both the api and frontend application.",
+        "githubURL": "https://github.com/seanj29/ingredients-search",
+        "deployURL": "https://recipe-returner.vercel.app/",
+        "tag": "web"
+    },
+    {
         "title": "vscode-language-renpy",
         "imagekey": "VSRenpy",
         "desc": "Contributed to an extension that adds VSCode support to the Renpy Programming Language.\n\n  Mostly a Typescript project, with a little bit of node for the running process",
@@ -25,7 +33,7 @@
     {
         "title": "Diece",
         "imagekey": "Diece",
-        "desc": "A short section of a turn based combat module made in Renpy, where you play as a little guy and run do some combat against some not so little guys.\n\n Feel free to edit it and use it as you wish",
+        "desc": "A short section of a turn based combat module made in Renpy,\n where you play as a little guy and run do some combat against some not so little guys.\n\n Feel free to edit it and use it as you wish",
         "githubURL": "https://github.com/seanj29/Diece",
         "itchURl":"https://seanj29.itch.io/diece-student-project",
         "tag": "game"
@@ -39,7 +47,7 @@
     },
     {
         "title": "Trade-Checker",
-        "desc": "Simple Command Line program I made for a coding challenge that monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database. \n\n Uses C# for the program and SQLite for the backend.",
+        "desc": "Simple Command Line program I made for a coding challenge.\n\n It monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database. \n\n Uses C# for the main application and SQLite for the database.",
         "githubURL": "https://github.com/seanj29/Trade-checker",
         "tag": "misc"
     }

@@ -15,12 +15,12 @@ const ProjectsSidebar = ({styles}:SidebarProps) =>{
                     Web Development
                 </a>
             </li>
-            <li className="mb-4 pt-2">
+            <li className="mb-4 pt-4">
                 <a href="#GameDev" className="hover:text-blue-600 dark:hover:text-white hover:underline">
                     Game Development
                 </a>
             </li>
-            <li className="mb-4 pt-2">
+            <li className="mb-4 pt-4">
                 <a href="#MiscDev" className="hover:text-blue-600 dark:hover:text-white hover:underline">
                     Misc Programming
                 </a>
