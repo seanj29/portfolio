@@ -50,6 +50,12 @@
         "desc": "Simple Command Line program I made for a coding challenge.\n\n It monitors a folder for a specific file to be added, then moves that file to an archive and adds it to a database. \n\n Uses C# for the main application and SQLite for the database.",
         "githubURL": "https://github.com/seanj29/Trade-checker",
         "tag": "misc"
+    },
+    {
+        "title": "Python Graph Implementation",
+        "desc": "A Python Project I started when I wanted to learn more about data structures and algorithms.\n\n Contains a simple implementation of Dijkstra's Algorithm, along with a reusable Graph data structure (which uses a linked list to respresent Nodes) \n\n Made Completely in Python 3.12, to take advantage of the extra type hinting.",
+        "githubURL": "https://github.com/seanj29/Graph-Data-Structure-Python",
+        "tag": "misc"
     }
     ],
     "Experiences": [
